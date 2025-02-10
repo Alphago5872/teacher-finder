@@ -3,13 +3,29 @@
 
 @theme {
   --font-roboto: "Roboto", sans-serif;
+
+  --color-black1: #121212;
+  --color-black2: #1E1E1E;
+  --color-black3: #292929;
+
+  --color-white1: #EAEAEA;
+  --color-white2: #B0B0B0;
+  --color-white3: #888888;
+
+  --color-accent1: #00D4FF;
+  --color-accent2: #FF007A;
+  --color-accent3: #F7A600;
+
+  --color-support1: #383838;
+  --color-support2: #222831;
+  --color-support3: #4ECCA3;
 }
 
 html,
 body {
-  @apply bg-white dark:bg-black1;
+  @apply bg-black1;
 
-  @media (prefers-color-scheme: dark) {
+  /* @media (prefers-color-scheme: dark) {
     color-scheme: dark;
-  }
+  } */
 }

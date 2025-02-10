@@ -29,6 +29,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
         <Meta />
         <Links />
       </head>
